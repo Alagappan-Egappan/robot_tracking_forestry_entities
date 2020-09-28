@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="model" default="$(find semfire_dataset_ntu)/urdf/semfire_bobcat.urdf"/>
+	<param name="robot_description" textfile="$(arg model)" />
+	
+	<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+            <remap from="joint_state" to="joint_state"/>
+            <param name="publish_frequency" type="double" value="15.0"/>
+    </node>
+
+    <!-- bobcat base to arm tf -->
+    <node pkg="tf" type="static_transform_publisher" name="base_to_arm" args="-1.174615 0 1.413525 0 -0.1 0 /bobcat_base /arms_link 100" />
+	
+</launch>

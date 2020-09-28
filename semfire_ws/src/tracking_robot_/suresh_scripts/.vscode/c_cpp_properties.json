@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/raushan/suresh_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/raushan/suresh_ws/src/beginner_tutorials/include/**",
+        "/home/raushan/suresh_ws/src/hdl_people_tracking/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/hector_costmap/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/RPLidar_Hector_SLAM/hector_slam/hector_geotiff/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/RPLidar_Hector_SLAM/hector_slam/hector_map_tools/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/RPLidar_Hector_SLAM/hector_slam/hector_mapping/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/RPLidar_Hector_SLAM/hector_slam/hector_marker_drawing/include/**",
+        "/home/raushan/suresh_ws/src/lslidar_c16/lslidar_c16_compensator/include/**",
+        "/home/raushan/suresh_ws/src/lslidar_c16/lslidar_c16_decoder/include/**",
+        "/home/raushan/suresh_ws/src/lslidar_c16/lslidar_c16_driver/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/nav_planner/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/rosserial/rosserial_server/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/rosserial/rosserial_test/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/slamware_ros_sdk_linux-x86_64-gcc5.4/src/slamware_ros_sdk/include/**",
+        "/home/raushan/catkin_ws/src/mitra_ros/ros_kinetic/slamware_ros_sdk_linux-x86_64-gcc5.4/src/slamware_sdk/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
